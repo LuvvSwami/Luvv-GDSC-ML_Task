@@ -15,19 +15,19 @@ def div(x,y):
 
 def mod(x,y):
     return x%y
-
-print("Select the desired operation : ")
-print("1 for addition.")
-print("2 for subtraction.")
-print("3 for multiplication.")
-print("4 for division.")
-print("5 for modulus.")
-
-choice=input()
-
 i=1
 
 while(i==1):
+    print("Select the desired operation : ")
+    print("1 for addition.")
+    print("2 for subtraction.")
+    print("3 for multiplication.")
+    print("4 for division.")
+    print("5 for modulus.")
+    
+    choice=input()
+
+
     if choice in ("1","2","3","4","5"):
         try:
             no1=int(input("Enter the first operand : "))
